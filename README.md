@@ -1,8 +1,8 @@
-# 💈 Barber Loyalty API
+# Barber Loyalty API
 
 API RESTful para cartão de fidelidade digital de barbearias via QR Code dinâmico com validação temporal e proteção contra fraudes.
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - **Python 3.10+**
 - **FastAPI** (Framework Web)
 - **SQLAlchemy** (ORM / Base de Dados Relacional)
@@ -10,14 +10,14 @@ API RESTful para cartão de fidelidade digital de barbearias via QR Code dinâmi
 - **PyJWT** (Geração e validação de tokens temporários com expiração TTL)
 - **Pydantic** (Validação de schemas)
 
-## 📌 Funcionalidades
+## Funcionalidades
 - Geração de QR Code temporário assinado criptograficamente (expira em 60s).
 - Validação de leitura com bloqueio de reuso de token.
 - Acúmulo de carimbos e geração automática de vouchers para cortes gratuitos ao atingir 10 carimbos.
 
-## 🛠️ Como Executar o Projeto
+## Como Executar o Projeto
 
 1. **Clonar o repositório:**
    ```bash
-   git clone [https://github.com/SEU_USUARIO/barber-fidelidade.git](https://github.com/SEU_USUARIO/barber-fidelidade.git)
+   git clone [https://github.com/Rog3r-M/barber-fidelidade.git](https://github.com/Rog3r-M/barber-fidelidade.git)
    cd barber-fidelidade
